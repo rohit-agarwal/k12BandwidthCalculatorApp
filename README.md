@@ -1,8 +1,8 @@
 # k12BandwidthCalculatorApp
 
 #navigate to the directory where you wish to create the repository
-# execute the following command - creates a repository for the user
-git int
+#execute the following command - creates a repository for the user
+git init
 
 # clone the repo to the newly created workspace
 git clone https://github.com/rohit-agarwal/k12BandwidthCalculatorApp.git
