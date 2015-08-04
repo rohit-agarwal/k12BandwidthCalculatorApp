@@ -38,7 +38,13 @@ $(document).ready(function(){
     });
     
     $(".sub_menu_item").click(function(){
-        $(this).siblings().each(function(){
+        $(this).parent().children().each(function(){
+            $(this).attr("class","sub_menu_item");
+        });
+        $(this).attr("class","sub_menu_item_selected");
+    });
+    $(".sub_menu_item_selected").click(function(){
+        $(this).parent().children().each(function(){
             $(this).attr("class","sub_menu_item");
         });
         $(this).attr("class","sub_menu_item_selected");
