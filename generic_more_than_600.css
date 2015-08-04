@@ -111,23 +111,43 @@
             overflow:auto;
         }*/
 .container {
-  width: auto;
-  margin: 0 auto;
+  width: 100%;
     position:fixed;
 }
 
-.whysign {
-  float: left;
-  background-color: white;
-  width: 480px;
-  height: 347px;
-  border-radius: 0 5px 5px 0;
-  padding-top: 20px;
-  padding-right: 20px;
+.sub_menu_list{
+    width: 100%;
+    background-color: #E0E0E0;
+    min-width:600px;
 }
-
+.sub_menu_links{
+    color: black;
+    font-size: 100%;
+}
+.sub_menu_item{
+    width: 24%;
+    height: 100%;
+    padding: 1% 0% 0% 0%;
+    display: inline-block;
+    position: relative;
+    margin: 0px auto;
+    align-content:center;
+    border-bottom: 5px solid #E0E0E0;
+    min-width:144px;
+}
+.sub_menu_item_selected{
+    width: 24%;
+    height: 100%;
+    padding: 1% 0% 0% 0%;
+    display: inline-block;
+    position: relative;
+    margin: 0px auto;
+    align-content:center;
+    border-bottom: 5px solid #CC6633;
+    min-width:144px;
+}
 .signup {
-  float: left;
+  margin: 0px auto;
   width: 300px;
   padding: 30px 20px;
   background-color: white;

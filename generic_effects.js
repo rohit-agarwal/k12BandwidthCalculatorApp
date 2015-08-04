@@ -25,6 +25,23 @@ $(document).ready(function(){
         }
     });
     $("a").mouseout(function(){
-        $(this).css("color", "white" );
+        var content = $(this).text();
+        if(content.indexOf("Bandwidth Calculator") == 0){
+            $(this).css("color","white");
+        }else if(content.indexOf("Login") == 0){
+            $(this).css("color","white");
+        }else if(content.indexOf("Contact Us") == 0){
+            $(this).css("color","white");
+        }else if(content.indexOf("About Us") == 0){
+            $(this).css("color","white");
+        }
     });
+    
+    $(".sub_menu_item").click(function(){
+        $(this).siblings().each(function(){
+            $(this).attr("class","sub_menu_item");
+        });
+        $(this).attr("class","sub_menu_item_selected");
+    });
+    
 });
