@@ -132,7 +132,7 @@
     font-size: 100%;
 }
 .sub_menu_item{
-    width: 49.8%;
+    width: 49.7%;
     height: 100%;
     padding: 1% 0% 0% 0%;
     display: inline-block;
@@ -144,7 +144,7 @@
     min-width:144px;
 }
 .sub_menu_item_selected{
-    width: 49.8%;
+    width: 49.7%;
     height: 100%;
     padding: 1% 0% 0% 0%;
     display: inline-block;
@@ -154,7 +154,7 @@
     border-bottom: 5px solid #CC6633;
     min-width:144px;
 }
-.form_container {
+.inner_container {
   
   background-color: white;
   text-align: center;
@@ -163,6 +163,9 @@
     width: 100%;
   overflow: auto;
   float: left;
+    
+}
+.left_flank{
     
 }
 form{

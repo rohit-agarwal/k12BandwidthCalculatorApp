@@ -31,8 +31,14 @@
                     <div align="center" class="sub_menu_item_selected"><a href="#" class="sub_menu_links" id="_manageApp_">Manage Applications</a></div>
                     <div align="center" class="sub_menu_item"><a href="#" class="sub_menu_links" id="_manageCatergory_">Manage Categories</a></div>
                 </div>
-                <div class='form_container'>
-                 <form>
+                <div class="inner_container">
+                <div class="left_flank">
+                    <!-- to do left flank - understanding is : left flank displays a list of existing application. On click will open details on right flank.
+                         A default entry called create new application is provided here which will reset the form and display a fresh application.
+                    -->
+                </div> 
+                <div class="right_flank">
+                    <form>
                      <div class="form_inner_left">
                    <input type='text' id="_appName_" class="_textDisplaySize" placeholder='Application Name:' required="required" title="Application Name"  />
                    <textarea cols="40" id="_appDesc_" class="_textDisplaySize" placeholder='Application Desciption:' required="required" title="Application Description"></textarea>
@@ -48,6 +54,7 @@
                          </div>
                    <input type='submit' placeholder='SUBMIT' />
                  </form>
+                </div>
               </div>
             </div>
         </div>
