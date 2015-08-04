@@ -28,17 +28,24 @@
         <div class="main" >
             <div class="container">
                 <div class="sub_menu_list">
-                    <div align="center" class="sub_menu_item_selected"><a href="#" class="sub_menu_links" id="_addApp_">Add Applications</a></div>
-                    <div align="center" class="sub_menu_item"><a href="#" class="sub_menu_links" id="_updateApp_">Update Applications</a></div>
-                    <div align="center" class="sub_menu_item"><a href="#" class="sub_menu_links" id="_addCatergory_">Add Categories</a></div>
-                    <div align="center" class="sub_menu_item"><a href="#" class="sub_menu_links" id="_updateCatergory_">Update Categories</a></div>
+                    <div align="center" class="sub_menu_item_selected"><a href="#" class="sub_menu_links" id="_manageApp_">Manage Applications</a></div>
+                    <div align="center" class="sub_menu_item"><a href="#" class="sub_menu_links" id="_manageCatergory_">Manage Categories</a></div>
                 </div>
-                <div class='signup'>
+                <div class='form_container'>
                  <form>
+                     <div class="form_inner_left">
                    <input type='text' id="_appName_" class="_textDisplaySize" placeholder='Application Name:' required="required" title="Application Name"  />
                    <textarea cols="40" id="_appDesc_" class="_textDisplaySize" placeholder='Application Desciption:' required="required" title="Application Description"></textarea>
-                   <input type='text' id="_downSpead_" placeholder='DownloadSpeed (Mbps):' required="required" pattern="[0-9]+([\.|,][0-9]+)?" title="DownloadSpeed (Mbps)"/>
-                   <input type='text' id="_upSpead" placeholder='UploadSpeed (Mbps)' required="required" pattern="[0-9]+([\.|,][0-9]+)?" title="UploadSpeed (Mbps)" />
+                   <input type='text' id="_downSpeed_" placeholder='DownloadSpeed (Mbps):' required="required" pattern="[0-9]+([\.|,][0-9]+)?" title="DownloadSpeed (Mbps)"/>
+                <input type='text' id="_upSpeed" placeholder='UploadSpeed (Mbps): ' required="required" pattern="[0-9]+([\.|,][0-9]+)?" title="UploadSpeed (Mbps)" />
+                         </div>
+                     <div class="form_inner_right">
+
+                    <input type='text' id="_latency" placeholder='Latency (ms): ' required="required" pattern="[0-9]+([\.|,][0-9]+)?" title="Latency (ms)" />
+                    <input type='text' id="_jitter" placeholder='Jitter: ' required="required" pattern="[0-9]+([\.|,][0-9]+)?" title="Jitter" />
+                    <input type='text' id="_packetLoss" placeholder='Packet Loss (%): ' required="required" pattern="[0-9]+([\.|,][0-9]+)?" title="Packet Loss (%)" />
+                    <input type='text' id="_catName_" class="_textDisplaySize" placeholder='Category:' required="required" title="Category"  />
+                         </div>
                    <input type='submit' placeholder='SUBMIT' />
                  </form>
               </div>
