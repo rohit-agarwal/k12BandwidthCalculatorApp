@@ -162,12 +162,50 @@
   border: 0;
   border-bottom: 1px solid rgba(0,0,0,.2);
   height: 45px;
-  line-height: 45px;  
+  line-height: 30px;  
   margin-bottom: 10px;
   font-size: 1em;
   color: rgba(0,0,0,.4);
+  font-family: 'ITC Avant Garde Gothic Demi', arial;
+}
+._numericDisplaySize{
+    width: 60px;
+    display: inline;
 }
 
+textarea{
+    resize:none;
+    overflow-y:visible;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    height: 100px;
+    line-height: 30px;  
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: rgba(0,0,0,.4);
+    font-family: 'ITC Avant Garde Gothic Demi', arial;
+}
+textarea:required{
+   color: rgba(255, 0, 0, 0.5);
+}
+textarea:invalid{
+   color: rgba(255, 0, 0, 0.5);
+}
+textarea:valid{
+   color: initial;
+}
+input:required{
+   color: rgba(255, 0, 0, 0.5);
+}
+input:invalid{
+    color: rgba(255, 0, 0, 0.5);
+}
+input:valid{
+    color: initial;
+}
 [type=submit] {
   margin-top: 25px;
   width: 80%;

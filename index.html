@@ -35,10 +35,10 @@
                 </div>
                 <div class='signup'>
                  <form>
-                   <input type='text' placeholder='First:'  />
-                   <input type='text' placeholder='Last:'  />
-                   <input type='text' placeholder='Email:'  />
-                   <input type='text' placeholder='Phone:'  />
+                   <input type='text' id="_appName_" class="_textDisplaySize" placeholder='Application Name:' required="required" title="Application Name"  />
+                   <textarea cols="40" id="_appDesc_" class="_textDisplaySize" placeholder='Application Desciption:' required="required" title="Application Description"></textarea>
+                   <input type='text' id="_downSpead_" placeholder='DownloadSpeed (Mbps):' required="required" pattern="[0-9]+([\.|,][0-9]+)?" title="DownloadSpeed (Mbps)"/>
+                   <input type='text' id="_upSpead" placeholder='UploadSpeed (Mbps)' required="required" pattern="[0-9]+([\.|,][0-9]+)?" title="UploadSpeed (Mbps)" />
                    <input type='submit' placeholder='SUBMIT' />
                  </form>
               </div>
